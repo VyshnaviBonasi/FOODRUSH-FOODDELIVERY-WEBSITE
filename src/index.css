@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --rush-lime: #CAF509;
+    --rush-lime-hover: #B6DD06;
+    --rush-orange: #FF7A00;
+    --rush-dark: #0D0B0A;
+    --rush-surface: #151110;
+    --rush-card: #1C1715;
+    --rush-border: #2E2623;
+  }
+
+  body {
+    background-color: #0D0B0A;
+    color: #F8F7F5;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom animations and styling */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s infinite ease-in-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151110;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E2623;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CAF509;
+}

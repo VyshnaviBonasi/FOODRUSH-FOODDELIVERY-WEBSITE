@@ -1,0 +1,1083 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Chief Admin",
+      "email": "admin@foodrush.com",
+      "role": "admin",
+      "phone": "+91 9876543200",
+      "avatar": "/assets/user-sign.jpg",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_paradise",
+      "name": "Manager Paradise",
+      "email": "partner@paradise.com",
+      "role": "restaurant",
+      "restaurantId": "res_paradise",
+      "phone": "+91 9876543201",
+      "avatar": "/assets/user-sign.jpg",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_nawabi",
+      "name": "Manager Nawabi",
+      "email": "partner@nawabi.com",
+      "role": "restaurant",
+      "restaurantId": "res_nawabi",
+      "phone": "+91 9876543202",
+      "avatar": "/assets/user-sign.jpg",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_courier",
+      "name": "Rajesh Kumar",
+      "email": "courier@foodrush.com",
+      "role": "delivery",
+      "deliveryVehicle": "TVS Raider 125 (TN-09-CB-4491)",
+      "deliveryStatus": "online",
+      "rating": 4.9,
+      "phone": "+91 9876543210",
+      "avatar": "/assets/free-delivery-logo-with-bike-man-courier_1308-48827.avif",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_customer",
+      "name": "Bonasi Vyshnavi",
+      "email": "vyshnavi@foodrush.com",
+      "role": "customer",
+      "phone": "+91 9876543299",
+      "avatar": "/assets/user-sign.jpg",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "res_paradise",
+      "name": "Paradise Biryani",
+      "tagline": "World-famous authentic Hyderabadi Dum Biryani & Kebabs",
+      "image": "/assets/paradise biriyani.avif",
+      "bannerImage": "/assets/moody-banquet-banner.jpg",
+      "cuisines": [
+        "Biryani",
+        "Hyderabadi",
+        "North Indian",
+        "Mughlai"
+      ],
+      "rating": 4.7,
+      "ratingCount": 1420,
+      "deliveryTime": "25-35 mins",
+      "deliveryFee": 30,
+      "priceForTwo": 550,
+      "address": "MG Road, Central Food District",
+      "area": "Central Hub",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      },
+      "isOpen": true,
+      "isFeatured": true,
+      "categories": [
+        "Biryani Specials",
+        "Starters",
+        "Main Course",
+        "Breads & Desserts"
+      ],
+      "totalOrdersServed": 8430
+    },
+    {
+      "id": "res_nawabi",
+      "name": "Nawabi Dum House",
+      "tagline": "Royal Mughlai curries, succulent kebabs and rich aromas",
+      "image": "/assets/nawabi.jpg",
+      "bannerImage": "/assets/hero.jpeg",
+      "cuisines": [
+        "Mughlai",
+        "North Indian",
+        "Biryani"
+      ],
+      "rating": 4.4,
+      "ratingCount": 980,
+      "deliveryTime": "30-40 mins",
+      "deliveryFee": 35,
+      "priceForTwo": 600,
+      "address": "Nawab Palace Lane, High Street",
+      "area": "High Street",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0855,
+        "lng": 80.2644
+      },
+      "isOpen": true,
+      "isFeatured": true,
+      "categories": [
+        "Nawabi Specials",
+        "Mughlai Curries",
+        "Tandoor & Starters",
+        "Breads"
+      ],
+      "totalOrdersServed": 4320
+    },
+    {
+      "id": "res_burgerhub",
+      "name": "Burger Hub",
+      "tagline": "Gourmet smashed burgers, loaded fries and crispy pizzas",
+      "image": "/assets/burger hub.jpeg",
+      "bannerImage": "/assets/background.jpeg",
+      "cuisines": [
+        "Fast Food",
+        "Burgers",
+        "Pizza"
+      ],
+      "rating": 4.3,
+      "ratingCount": 810,
+      "deliveryTime": "20-30 mins",
+      "deliveryFee": 25,
+      "priceForTwo": 350,
+      "address": "4th Cross, Food Court Boulevard",
+      "area": "Avenue West",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0789,
+        "lng": 80.2588
+      },
+      "isOpen": true,
+      "isFeatured": true,
+      "categories": [
+        "Burgers",
+        "Pizza",
+        "Sides & Drinks"
+      ],
+      "totalOrdersServed": 5120
+    },
+    {
+      "id": "res_dragonwok",
+      "name": "Dragon Wok",
+      "tagline": "Wok-tossed fiery Hakka noodles, dumplings and soups",
+      "image": "/assets/dragonwok.avif",
+      "bannerImage": "/assets/offersbackground.jpeg",
+      "cuisines": [
+        "Chinese",
+        "Asian",
+        "Noodles"
+      ],
+      "rating": 4.6,
+      "ratingCount": 1120,
+      "deliveryTime": "25-35 mins",
+      "deliveryFee": 30,
+      "priceForTwo": 450,
+      "address": "East Silk Road, Dragon Plaza",
+      "area": "Metro East",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0901,
+        "lng": 80.2799
+      },
+      "isOpen": true,
+      "isFeatured": false,
+      "categories": [
+        "Soups",
+        "Hakka Noodles",
+        "Starters",
+        "Wok Specials"
+      ],
+      "totalOrdersServed": 3890
+    },
+    {
+      "id": "res_sweettooth",
+      "name": "Sweet Tooth Bakery",
+      "tagline": "Artisanal cakes, decadent pastries, donuts and brownies",
+      "image": "/assets/Sweet Tooth Bakery.avif",
+      "bannerImage": "/assets/moody-banquet-banner.jpg",
+      "cuisines": [
+        "Desserts",
+        "Bakery",
+        "Cakes"
+      ],
+      "rating": 4.9,
+      "ratingCount": 1750,
+      "deliveryTime": "20-30 mins",
+      "deliveryFee": 25,
+      "priceForTwo": 300,
+      "address": "Baker Street, Pastel Corner",
+      "area": "South Park",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0734,
+        "lng": 80.2621
+      },
+      "isOpen": true,
+      "isFeatured": true,
+      "categories": [
+        "Cakes",
+        "Pastries",
+        "Donuts & Brownies",
+        "Beverages"
+      ],
+      "totalOrdersServed": 7210
+    },
+    {
+      "id": "res_andhra",
+      "name": "Andhra Spice Kitchen",
+      "tagline": "Fiery Andhra spicy curries, fragrant ghee roasts and tiffins",
+      "image": "/assets/andhraspicekitchen.avif",
+      "bannerImage": "/assets/background.jpeg",
+      "cuisines": [
+        "South Indian",
+        "Andhra",
+        "Tiffins"
+      ],
+      "rating": 4.5,
+      "ratingCount": 940,
+      "deliveryTime": "20-30 mins",
+      "deliveryFee": 25,
+      "priceForTwo": 350,
+      "address": "7th Avenue, Spice Valley",
+      "area": "Spice Gate",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0812,
+        "lng": 80.2811
+      },
+      "isOpen": true,
+      "isFeatured": false,
+      "categories": [
+        "Tiffins",
+        "Andhra Meals",
+        "Curries",
+        "Beverages"
+      ],
+      "totalOrdersServed": 4120
+    },
+    {
+      "id": "res_urbantadka",
+      "name": "Urban Tadka",
+      "tagline": "Rich gravies, smoky charcoal grills and comfort food",
+      "image": "/assets/urbantadka.jpg",
+      "bannerImage": "/assets/hero.jpeg",
+      "cuisines": [
+        "North Indian",
+        "Mughlai",
+        "Tandoori"
+      ],
+      "rating": 4.4,
+      "ratingCount": 670,
+      "deliveryTime": "30-40 mins",
+      "deliveryFee": 35,
+      "priceForTwo": 500,
+      "address": "32 Urban Arcade",
+      "area": "North City",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0955,
+        "lng": 80.2677
+      },
+      "isOpen": true,
+      "isFeatured": false,
+      "categories": [
+        "Starters",
+        "Main Course",
+        "Rice & Breads"
+      ],
+      "totalOrdersServed": 2980
+    },
+    {
+      "id": "res_bbqnation",
+      "name": "BBQ Nation Express",
+      "tagline": "Unlimited grill flavours, skewers and smoky tandoor bites",
+      "image": "/assets/bbq nation.avif",
+      "bannerImage": "/assets/tandoori-skewers.webp",
+      "cuisines": [
+        "North Indian",
+        "BBQ",
+        "Tandoori"
+      ],
+      "rating": 4.8,
+      "ratingCount": 2200,
+      "deliveryTime": "30-45 mins",
+      "deliveryFee": 40,
+      "priceForTwo": 700,
+      "address": "Express Avenue Level 3",
+      "area": "Downtown",
+      "city": "Chennai",
+      "coordinates": {
+        "lat": 13.0841,
+        "lng": 80.2733
+      },
+      "isOpen": true,
+      "isFeatured": true,
+      "categories": [
+        "Grill Platters",
+        "Curries",
+        "Biryani"
+      ],
+      "totalOrdersServed": 9640
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "item_pb_1",
+      "restaurantId": "res_paradise",
+      "name": "Chicken 65",
+      "description": "Crispy fried boneless chicken tossed in aromatic curry leaves, green chilies, and fiery Hyderabadi spices.",
+      "price": 299,
+      "image": "/assets/65.jpg",
+      "category": "Starters",
+      "cuisine": "Hyderabadi",
+      "isVeg": false,
+      "isPopular": true,
+      "spiceLevel": "spicy",
+      "rating": 4.8,
+      "preparationTimeMinutes": 18,
+      "inStock": true,
+      "variants": [
+        {
+          "id": "v_half",
+          "name": "Half (6 pcs)",
+          "price": 299
+        },
+        {
+          "id": "v_full",
+          "name": "Full (12 pcs)",
+          "price": 499
+        }
+      ],
+      "addons": [
+        {
+          "id": "a_lemon",
+          "name": "Extra Fried Chilly & Lime",
+          "price": 20
+        },
+        {
+          "id": "a_sauce",
+          "name": "Mint Chutney Dip",
+          "price": 30
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs"
+      ],
+      "calories": 420
+    },
+    {
+      "id": "item_pb_2",
+      "restaurantId": "res_paradise",
+      "name": "Paneer Tikka",
+      "description": "Charcoal-grilled cottage cheese cubes marinated in Kashmiri chili yogurt, carom seeds and bell peppers.",
+      "price": 279,
+      "image": "/assets/Paneer-Tikka-Featured-1.jpg",
+      "category": "Starters",
+      "cuisine": "North Indian",
+      "isVeg": true,
+      "isPopular": true,
+      "spiceLevel": "medium",
+      "rating": 4.6,
+      "preparationTimeMinutes": 15,
+      "inStock": true,
+      "variants": [
+        {
+          "id": "v_reg",
+          "name": "Regular",
+          "price": 279
+        },
+        {
+          "id": "v_cheese",
+          "name": "Cheese Stuffed",
+          "price": 329
+        }
+      ],
+      "addons": [
+        {
+          "id": "a_chutney",
+          "name": "Special Garlic Chutney",
+          "price": 25
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 380
+    },
+    {
+      "id": "item_pb_3",
+      "restaurantId": "res_paradise",
+      "name": "Hyderabadi Chicken Biryani",
+      "description": "World-famous slow-cooked long-grain Basmati rice, marinated tender chicken, saffron milk, and layered royal pot aromatics. Served with Mirchi ka Salan & Raita.",
+      "price": 289,
+      "image": "/assets/chickenbiriyani.jpg",
+      "category": "Biryani Specials",
+      "cuisine": "Hyderabadi",
+      "isVeg": false,
+      "isPopular": true,
+      "spiceLevel": "medium",
+      "rating": 4.9,
+      "preparationTimeMinutes": 20,
+      "inStock": true,
+      "variants": [
+        {
+          "id": "v_single",
+          "name": "Single (1 pc + Egg)",
+          "price": 289
+        },
+        {
+          "id": "v_special",
+          "name": "Special (2 pcs + 2 Eggs)",
+          "price": 429
+        },
+        {
+          "id": "v_family",
+          "name": "Family Pack (Serves 4)",
+          "price": 899
+        }
+      ],
+      "addons": [
+        {
+          "id": "a_raita",
+          "name": "Extra Boondi Raita",
+          "price": 35
+        },
+        {
+          "id": "a_salan",
+          "name": "Extra Mirchi Ka Salan",
+          "price": 40
+        },
+        {
+          "id": "a_egg",
+          "name": "Boiled Egg (2 pcs)",
+          "price": 30
+        }
+      ],
+      "calories": 680
+    },
+    {
+      "id": "item_pb_4",
+      "restaurantId": "res_paradise",
+      "name": "Butter Chicken",
+      "description": "Succulent tandoor chicken simmered in a velvety tomato, cashew and butter gravy finished with dried fenugreek leaves.",
+      "price": 299,
+      "image": "/assets/Butter-Chicken-Tall-FS-34.webp",
+      "category": "Main Course",
+      "cuisine": "North Indian",
+      "isVeg": false,
+      "isPopular": true,
+      "spiceLevel": "mild",
+      "rating": 4.7,
+      "preparationTimeMinutes": 20,
+      "inStock": true,
+      "variants": [
+        {
+          "id": "v_boneless",
+          "name": "Boneless Cubes",
+          "price": 299
+        },
+        {
+          "id": "v_bone",
+          "name": "Tandoori Bone-in",
+          "price": 319
+        }
+      ],
+      "addons": [
+        {
+          "id": "a_butter",
+          "name": "Extra Cream & White Butter",
+          "price": 35
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Cashews"
+      ],
+      "calories": 540
+    },
+    {
+      "id": "item_pb_5",
+      "restaurantId": "res_paradise",
+      "name": "Paneer Butter Masala",
+      "description": "Fresh malai paneer simmered in rich satin makhani gravy enriched with fresh cream and butter.",
+      "price": 269,
+      "image": "/assets/paneerbuttermasala.jpg",
+      "category": "Main Course",
+      "cuisine": "North Indian",
+      "isVeg": true,
+      "isPopular": true,
+      "spiceLevel": "mild",
+      "rating": 4.7,
+      "preparationTimeMinutes": 18,
+      "inStock": true,
+      "addons": [
+        {
+          "id": "a_extra_cheese",
+          "name": "Grated Amul Cheese",
+          "price": 40
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 490
+    },
+    {
+      "id": "item_pb_6",
+      "restaurantId": "res_paradise",
+      "name": "Garlic Butter Naan",
+      "description": "Traditional clay oven baked flatbread smeared with garlic chips, coriander and fresh melted butter.",
+      "price": 49,
+      "image": "/assets/Garlic Naan.jpg",
+      "category": "Breads & Desserts",
+      "cuisine": "North Indian",
+      "isVeg": true,
+      "rating": 4.8,
+      "preparationTimeMinutes": 10,
+      "inStock": true,
+      "calories": 160
+    },
+    {
+      "id": "item_pb_7",
+      "restaurantId": "res_paradise",
+      "name": "Tandoori Chicken Skewers",
+      "description": "Whole chicken cutlets marinated for 12 hours in smoked mustard oil, hung curd, ginger garlic and roasted cumin.",
+      "price": 320,
+      "image": "/assets/tandoori-chicken-hero.jpg",
+      "category": "Starters",
+      "cuisine": "North Indian",
+      "isVeg": false,
+      "spiceLevel": "spicy",
+      "rating": 4.7,
+      "preparationTimeMinutes": 22,
+      "inStock": true,
+      "calories": 490
+    },
+    {
+      "id": "item_nw_1",
+      "restaurantId": "res_nawabi",
+      "name": "Murgh Musallam",
+      "description": "Royal court Mughlai delicacy cooked in rich brown onion, poppy seed and roasted almond paste.",
+      "price": 349,
+      "image": "/assets/Murgh Musallam.jpg",
+      "category": "Nawabi Specials",
+      "cuisine": "Mughlai",
+      "isVeg": false,
+      "isPopular": true,
+      "spiceLevel": "medium",
+      "rating": 4.8,
+      "preparationTimeMinutes": 25,
+      "inStock": true,
+      "calories": 620
+    },
+    {
+      "id": "item_nw_2",
+      "restaurantId": "res_nawabi",
+      "name": "Nawabi Chicken Korma",
+      "description": "Mildly spiced aromatic stew infused with green cardamom, mace, rose water, and slow-fried cashews.",
+      "price": 299,
+      "image": "/assets/Nawabi Chicken Korma.jpg",
+      "category": "Mughlai Curries",
+      "cuisine": "Mughlai",
+      "isVeg": false,
+      "spiceLevel": "mild",
+      "rating": 4.5,
+      "preparationTimeMinutes": 22,
+      "inStock": true,
+      "calories": 550
+    },
+    {
+      "id": "item_nw_3",
+      "restaurantId": "res_nawabi",
+      "name": "Shahi Paneer",
+      "description": "Royal cottage cheese triangles cooked in sweet and savoury saffron almond makhani sauce.",
+      "price": 279,
+      "image": "/assets/ShahiPaneer-3.jpg",
+      "category": "Mughlai Curries",
+      "cuisine": "Mughlai",
+      "isVeg": true,
+      "spiceLevel": "mild",
+      "rating": 4.6,
+      "preparationTimeMinutes": 18,
+      "inStock": true,
+      "calories": 460
+    },
+    {
+      "id": "item_nw_4",
+      "restaurantId": "res_nawabi",
+      "name": "Mutton Seekh Kebab",
+      "description": "Minced lamb blended with royal spices, mint and chopped onions, skewered and char-grilled over embers.",
+      "price": 369,
+      "image": "/assets/Mutton-seekh-kabab-recipe-1-2.jpg",
+      "category": "Tandoor & Starters",
+      "cuisine": "Mughlai",
+      "isVeg": false,
+      "spiceLevel": "spicy",
+      "rating": 4.9,
+      "preparationTimeMinutes": 20,
+      "inStock": true,
+      "calories": 510
+    },
+    {
+      "id": "item_bh_1",
+      "restaurantId": "res_burgerhub",
+      "name": "Double Patty Crunchy Burger",
+      "description": "Two grilled seasoned patties layered with melted yellow cheddar, gherkins, crisp lettuce and secret rush sauce.",
+      "price": 169,
+      "image": "/assets/burger.jpg",
+      "category": "Burgers",
+      "cuisine": "Fast Food",
+      "isVeg": false,
+      "isPopular": true,
+      "rating": 4.6,
+      "preparationTimeMinutes": 15,
+      "inStock": true,
+      "variants": [
+        {
+          "id": "v_chick",
+          "name": "Double Chicken Patty",
+          "price": 169
+        },
+        {
+          "id": "v_veg",
+          "name": "Double Crispy Veg Patty",
+          "price": 149
+        }
+      ],
+      "addons": [
+        {
+          "id": "a_cheese_slice",
+          "name": "Extra Melted Cheddar",
+          "price": 25
+        },
+        {
+          "id": "a_fries_combo",
+          "name": "Make it a Meal (Fries + Coke)",
+          "price": 89
+        }
+      ],
+      "calories": 580
+    },
+    {
+      "id": "item_bh_2",
+      "restaurantId": "res_burgerhub",
+      "name": "Cheese Burst Veggie Pizza",
+      "description": "Fresh dough pizza loaded with gooey mozzarella in the crust, topped with capsicum, black olives, sweet corn and jalapeños.",
+      "price": 249,
+      "image": "/assets/pizza.jpg",
+      "category": "Pizza",
+      "cuisine": "Pizza",
+      "isVeg": true,
+      "isPopular": true,
+      "rating": 4.8,
+      "preparationTimeMinutes": 20,
+      "inStock": true,
+      "variants": [
+        {
+          "id": "v_med",
+          "name": "Medium (Serves 2)",
+          "price": 249
+        },
+        {
+          "id": "v_large",
+          "name": "Large (Serves 4)",
+          "price": 399
+        }
+      ],
+      "calories": 720
+    },
+    {
+      "id": "item_bh_3",
+      "restaurantId": "res_burgerhub",
+      "name": "Choco Lava Cupcake",
+      "description": "Warm chocolate sponge cupcake with an indulgent flowing Belgian chocolate molten center.",
+      "price": 99,
+      "image": "/assets/lava-cupcake1.jpg",
+      "category": "Sides & Drinks",
+      "cuisine": "Fast Food",
+      "isVeg": true,
+      "rating": 4.9,
+      "preparationTimeMinutes": 10,
+      "inStock": true,
+      "calories": 320
+    },
+    {
+      "id": "item_st_1",
+      "restaurantId": "res_sweettooth",
+      "name": "Chocolate Truffle Cake (500g)",
+      "description": "Rich moist dark chocolate sponge filled and frosted with silky dark chocolate ganache glaze.",
+      "price": 349,
+      "image": "/assets/chocolate-truffle-cake-8844.jpg",
+      "category": "Cakes",
+      "cuisine": "Bakery",
+      "isVeg": true,
+      "isPopular": true,
+      "rating": 4.9,
+      "preparationTimeMinutes": 15,
+      "inStock": true,
+      "calories": 820
+    },
+    {
+      "id": "item_st_2",
+      "restaurantId": "res_sweettooth",
+      "name": "Blueberry Cheesecake Slice",
+      "description": "New York style baked cream cheese over buttery biscuit crumble, topped with wild blueberry compote.",
+      "price": 189,
+      "image": "/assets/Blueberry-Cheesecake_1_1200x1200.webp",
+      "category": "Pastries",
+      "cuisine": "Desserts",
+      "isVeg": true,
+      "isPopular": true,
+      "rating": 4.9,
+      "preparationTimeMinutes": 10,
+      "inStock": true,
+      "calories": 390
+    },
+    {
+      "id": "item_st_3",
+      "restaurantId": "res_sweettooth",
+      "name": "Warm Fudge Chocolate Brownie",
+      "description": "Dense, chewy chocolate brownie loaded with toasted walnuts and drizzled with chocolate sauce.",
+      "price": 129,
+      "image": "/assets/chocolate brownie.jpg",
+      "category": "Donuts & Brownies",
+      "cuisine": "Desserts",
+      "isVeg": true,
+      "rating": 4.7,
+      "preparationTimeMinutes": 8,
+      "inStock": true,
+      "addons": [
+        {
+          "id": "a_icecream",
+          "name": "Vanilla Ice Cream Scoop",
+          "price": 40
+        }
+      ],
+      "calories": 310
+    },
+    {
+      "id": "item_st_4",
+      "restaurantId": "res_sweettooth",
+      "name": "Rainbow Sprinkle Donut",
+      "description": "Fresh glazed ring donut coated with pink strawberry icing and multi-color crispy sprinkles.",
+      "price": 79,
+      "image": "/assets/Rainbow Sprinkle Donut.jpg",
+      "category": "Donuts & Brownies",
+      "cuisine": "Desserts",
+      "isVeg": true,
+      "rating": 4.5,
+      "preparationTimeMinutes": 5,
+      "inStock": true,
+      "calories": 240
+    },
+    {
+      "id": "item_as_1",
+      "restaurantId": "res_andhra",
+      "name": "Ghee Roast Masala Dosa",
+      "description": "Golden crisp fermented crepe roasted in pure desi ghee, filled with spiced potato masala, served with 3 chutneys & piping hot sambar.",
+      "price": 99,
+      "image": "/assets/dosadelight.jpg",
+      "category": "Tiffins",
+      "cuisine": "South Indian",
+      "isVeg": true,
+      "isPopular": true,
+      "rating": 4.8,
+      "preparationTimeMinutes": 12,
+      "inStock": true,
+      "addons": [
+        {
+          "id": "a_podipodi",
+          "name": "Gunpowder Podi & Ghee",
+          "price": 30
+        }
+      ],
+      "calories": 350
+    },
+    {
+      "id": "item_as_2",
+      "restaurantId": "res_andhra",
+      "name": "Steamed Idli Sambar (4 pcs)",
+      "description": "Feather-light steamed rice cakes served with authentic drumstick sambar and fresh coconut chutney.",
+      "price": 59,
+      "image": "/assets/idly express.jpg",
+      "category": "Tiffins",
+      "cuisine": "South Indian",
+      "isVeg": true,
+      "rating": 4.7,
+      "preparationTimeMinutes": 10,
+      "inStock": true,
+      "calories": 210
+    },
+    {
+      "id": "item_as_3",
+      "restaurantId": "res_andhra",
+      "name": "Royal Andhra Meals",
+      "description": "Complete feast with steamed sona masoori rice, gongura pachadi, pappu, sambar, rasam, kootu, curd and crisp papad.",
+      "price": 199,
+      "image": "/assets/meals.jpg",
+      "category": "Andhra Meals",
+      "cuisine": "South Indian",
+      "isVeg": true,
+      "isPopular": true,
+      "rating": 4.7,
+      "preparationTimeMinutes": 15,
+      "inStock": true,
+      "calories": 650
+    },
+    {
+      "id": "item_dw_1",
+      "restaurantId": "res_dragonwok",
+      "name": "Veg Hakka Noodles",
+      "description": "Wok-tossed noodles with julienned cabbage, carrots, capsicum, spring onions and toasted sesame oil.",
+      "price": 179,
+      "image": "/assets/chineese.jpg",
+      "category": "Hakka Noodles",
+      "cuisine": "Chinese",
+      "isVeg": true,
+      "isPopular": true,
+      "rating": 4.6,
+      "preparationTimeMinutes": 15,
+      "inStock": true,
+      "calories": 390
+    },
+    {
+      "id": "item_dw_2",
+      "restaurantId": "res_dragonwok",
+      "name": "Fiery Dragon Chilli Chicken",
+      "description": "Crispy diced chicken tossed with red bird-eye chilies, capsicum, soy sauce and Chinese wine.",
+      "price": 249,
+      "image": "/assets/chilli chicken.jpg",
+      "category": "Starters",
+      "cuisine": "Chinese",
+      "isVeg": false,
+      "spiceLevel": "spicy",
+      "rating": 4.7,
+      "preparationTimeMinutes": 18,
+      "inStock": true,
+      "calories": 440
+    }
+  ],
+  "orders": [
+    {
+      "id": "FRX-98214",
+      "userId": "usr_customer",
+      "customerName": "Bonasi Vyshnavi",
+      "customerPhone": "+91 9876543299",
+      "restaurantId": "res_paradise",
+      "restaurantName": "Paradise Biryani",
+      "restaurantAddress": "MG Road, Central Food District",
+      "items": [
+        {
+          "menuItemId": "item_pb_3",
+          "name": "Hyderabadi Chicken Biryani",
+          "price": 289,
+          "quantity": 1,
+          "image": "/assets/chickenbiriyani.jpg",
+          "isVeg": false,
+          "subtotal": 289
+        },
+        {
+          "menuItemId": "item_pb_1",
+          "name": "Chicken 65",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/65.jpg",
+          "isVeg": false,
+          "subtotal": 299
+        }
+      ],
+      "subtotal": 588,
+      "tax": 29.4,
+      "deliveryFee": 30,
+      "discount": 145,
+      "couponCode": "BIRYANI145",
+      "total": 502.4,
+      "status": "DELIVERED",
+      "deliveryAddress": {
+        "fullName": "Bonasi Vyshnavi",
+        "street": "Apartment 402, Green Glen Residency, Anna Nagar",
+        "city": "Chennai",
+        "pincode": "600040",
+        "phone": "+91 9876543299"
+      },
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "courierId": "usr_courier",
+      "courierName": "Rajesh Kumar",
+      "courierPhone": "+91 9876543210",
+      "estimatedDeliveryMinutes": 30,
+      "createdAt": "2026-10-28T13:47:18.263Z",
+      "updatedAt": "2026-10-28T13:47:18.263Z",
+      "timeline": [
+        {
+          "status": "PLACED",
+          "timestamp": "2026-10-28T13:47:18.263Z",
+          "description": "Order successfully placed & paid via UPI"
+        },
+        {
+          "status": "CONFIRMED",
+          "timestamp": "2026-10-28T13:47:18.263Z",
+          "description": "Paradise Biryani accepted order"
+        },
+        {
+          "status": "PREPARING",
+          "timestamp": "2026-10-28T13:47:18.263Z",
+          "description": "Kitchen is preparing your dum biryani"
+        },
+        {
+          "status": "READY_FOR_PICKUP",
+          "timestamp": "2026-10-28T13:47:18.263Z",
+          "description": "Order packed with safety seals"
+        },
+        {
+          "status": "OUT_FOR_DELIVERY",
+          "timestamp": "2026-10-28T13:47:18.263Z",
+          "description": "Rajesh Kumar picked up your food"
+        },
+        {
+          "status": "DELIVERED",
+          "timestamp": "2026-10-28T13:47:18.263Z",
+          "description": "Order delivered safely. Enjoy your meal!"
+        }
+      ]
+    },
+    {
+      "id": "FRX-98215",
+      "userId": "usr_customer",
+      "customerName": "Bonasi Vyshnavi",
+      "customerPhone": "+91 9876543299",
+      "restaurantId": "res_sweettooth",
+      "restaurantName": "Sweet Tooth Bakery",
+      "restaurantAddress": "Baker Street, Pastel Corner",
+      "items": [
+        {
+          "menuItemId": "item_st_3",
+          "name": "Warm Fudge Chocolate Brownie",
+          "price": 129,
+          "quantity": 2,
+          "image": "/assets/chocolate brownie.jpg",
+          "isVeg": true,
+          "subtotal": 258
+        }
+      ],
+      "subtotal": 258,
+      "tax": 12.9,
+      "deliveryFee": 25,
+      "discount": 50,
+      "couponCode": "SWEET30",
+      "total": 245.9,
+      "status": "OUT_FOR_DELIVERY",
+      "deliveryAddress": {
+        "fullName": "Bonasi Vyshnavi",
+        "street": "Apartment 402, Green Glen Residency, Anna Nagar",
+        "city": "Chennai",
+        "pincode": "600040",
+        "phone": "+91 9876543299"
+      },
+      "paymentMethod": "CARD",
+      "paymentStatus": "PAID",
+      "courierId": "usr_courier",
+      "courierName": "Rajesh Kumar",
+      "courierPhone": "+91 9876543210",
+      "courierCoords": {
+        "lat": 13.078,
+        "lng": 80.265
+      },
+      "estimatedDeliveryMinutes": 12,
+      "createdAt": "2026-10-29T13:37:18.265Z",
+      "updatedAt": "2026-10-29T13:37:18.265Z",
+      "timeline": [
+        {
+          "status": "PLACED",
+          "timestamp": "2026-10-29T13:37:18.265Z",
+          "description": "Order placed & paid"
+        },
+        {
+          "status": "CONFIRMED",
+          "timestamp": "2026-10-29T13:37:18.265Z",
+          "description": "Sweet Tooth Bakery accepted order"
+        },
+        {
+          "status": "PREPARING",
+          "timestamp": "2026-10-29T13:37:18.265Z",
+          "description": "Baking and packing freshly"
+        },
+        {
+          "status": "READY_FOR_PICKUP",
+          "timestamp": "2026-10-29T13:37:18.265Z",
+          "description": "Order ready for dispatch"
+        },
+        {
+          "status": "OUT_FOR_DELIVERY",
+          "timestamp": "2026-10-29T13:37:18.265Z",
+          "description": "Rajesh Kumar is on the way to your door!"
+        }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "code": "FIRST50",
+      "title": "50% OFF First Order",
+      "discountPercent": 50,
+      "maxDiscount": 150,
+      "minOrderValue": 199,
+      "description": "Flat 50% discount up to ₹150 for new FoodRush X users.",
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "code": "BIRYANI145",
+      "title": "Weekend Biryani Feast",
+      "discountPercent": 40,
+      "maxDiscount": 145,
+      "minOrderValue": 299,
+      "description": "40% discount on Paradise Biryani & Nawabi Dum House.",
+      "expiryDate": "2027-12-31",
+      "applicableCategory": "Biryani"
+    },
+    {
+      "code": "SWEET30",
+      "title": "Dessert Rush",
+      "discountPercent": 30,
+      "maxDiscount": 100,
+      "minOrderValue": 199,
+      "description": "30% off on cakes, pastries and brownies at Sweet Tooth Bakery.",
+      "expiryDate": "2027-12-31",
+      "applicableCategory": "Desserts"
+    },
+    {
+      "code": "SOUTH100",
+      "title": "South Indian Super Saver",
+      "discountPercent": 40,
+      "maxDiscount": 100,
+      "minOrderValue": 199,
+      "description": "40% off on Andhra Meals, Dosas & Tiffins.",
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "code": "BURGER798",
+      "title": "Burger Bonanza",
+      "discountPercent": 30,
+      "maxDiscount": 120,
+      "minOrderValue": 249,
+      "description": "30% off on all burgers & sides at Burger Hub.",
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "code": "CHICKEN453",
+      "title": "Free Delivery Special",
+      "discountPercent": 10,
+      "maxDiscount": 50,
+      "minOrderValue": 199,
+      "description": "Free delivery applied across all restaurants for orders above ₹199.",
+      "expiryDate": "2027-12-31"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_init",
+      "action": "SYSTEM_BOOTSTRAPPED",
+      "performedBy": "system",
+      "details": {
+        "message": "FoodRush X database initialized with authentic legacy menus and users"
+      },
+      "timestamp": "2026-10-29T13:47:18.265Z"
+    }
+  ]
+}

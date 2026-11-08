@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: foodrush-x
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npx tsx server/index.ts
+    healthCheckPath: /api/restaurants
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DISPATCH_SIMULATION_ENABLED
+        value: "true"
+      - key: CORS_ORIGIN
+        value: "*"
